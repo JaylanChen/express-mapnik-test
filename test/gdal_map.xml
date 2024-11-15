@@ -1,0 +1,14 @@
+<Map srs="+proj=longlat +ellps=GRS80 +no_defs +type=crs">
+    <Style name="raster">
+        <Rule>
+            <RasterSymbolizer/>
+        </Rule>
+    </Style>
+    <Layer name="layer" srs="+proj=longlat +ellps=GRS80 +no_defs">
+        <StyleName>raster</StyleName>
+        <Datasource>
+            <Parameter name="type">gdal</Parameter>
+            <Parameter name="file">data/natural_earth.tif</Parameter>
+        </Datasource>
+    </Layer>
+</Map>

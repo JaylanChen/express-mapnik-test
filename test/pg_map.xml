@@ -17,6 +17,7 @@
       <Parameter name="user">postgres</Parameter>
       <Parameter name="password">postgres</Parameter>
       <Parameter name="table">planet_osm_polygon</Parameter>
+      <!-- <Parameter name="table"><![CDATA[(select * from planet_osm_polygon where way_area < 50) as t1]]></Parameter> -->
     </Datasource>
   </Layer>
 </Map>

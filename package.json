@@ -11,7 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@mapnik/mapnik": "^4.6.5",
+    "@mapnik/mapnik": "^4.6.6-dev",
     "express": "^4.21.1",
     "generic-pool": "^3.9.0"
   }
